@@ -25,6 +25,10 @@ function App() {
       e.preventDefault();
       getWeather(searchTerm);
     };
+    const myIP = (location) => {
+      const { latitude, longitude } = location.coords;
+      getWeather([latitude, longitude]);
+    };
 }
 
 export default App;
