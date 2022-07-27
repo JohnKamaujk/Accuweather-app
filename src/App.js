@@ -83,7 +83,7 @@ function App() {
                 type="text"
                 name=""
                 id=""
-                placeholder="#Explore ?"
+                placeholder="#Input locale ?"
                 onChange={handleChange}
                 required
               />
