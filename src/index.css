@@ -61,7 +61,7 @@ body{
   
 }
 .form-container{
-  background: url('./asset/lake-background.jpg') no-repeat;
+  background: url('./asset/beach.jpeg') no-repeat;
   background-size: cover;
   z-index: 100;
   border-radius: 1rem;
@@ -139,7 +139,7 @@ body{
   padding-left: 10px;
   border: none;
   outline: none;
-  color: #ffff;
+  color:#226fae;
   font-size: 1rem;
   border-radius: 5px;
   border-top-right-radius: 0px;
@@ -185,6 +185,7 @@ body{
 }
 .title{
   margin-top: 3rem;
+  color:  #093462;
 }
 @media only screen and (max-width: 1024px) {
   .content{

@@ -7,6 +7,7 @@ import SummaryCard from "./components/SummaryCard";
 
 function App() {
   const API_KEY = process.env.REACT_APP_API_KEY;
+  //Accessed my key which is on .env file
 
   const [noData, setNoData] = useState("No Data Yet");
   const [searchTerm, setSearchTerm] = useState("");
@@ -37,6 +38,7 @@ function App() {
       let res = await fetch(`${process.env.REACT_APP_URL + how_to_search}
       &appid=${API_KEY}&units=metric&cnt=5&exclude=hourly,minutely`);
       let data = await res.json();
+      console.log(data)
       if (data.cod != 200) {
         setNoData("Location Not Found");
         return;
@@ -66,7 +68,7 @@ function App() {
         <div className="form-container">
           <div className="name">
             <div className="logo">
-              Kai - Weather App<hr></hr>
+              Johnny ❤️ Weather App<hr></hr>
             </div>
             <div className="city">
               <TbMapSearch />
@@ -74,7 +76,7 @@ function App() {
             </div>
           </div>
           <div className="search">
-            <h2>The Only Weather App You Need !</h2>
+            <h2>Utabiri wa Hali ya Anga !</h2>
             <hr />
             <form className="search-bar" noValidate onSubmit={handleSubmit}>
               <input
