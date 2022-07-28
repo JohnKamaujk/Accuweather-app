@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import DetailsCard from "./components/DetailsCard";
 import SummaryCard from "./components/SummaryCard";
+import Nodata from "./components/Nodata";
 
 function App() {
   const API_KEY = process.env.REACT_APP_API_KEY;
@@ -99,11 +100,7 @@ function App() {
         </div>
         <div className="info-container">
           <Header />
-          {weatherData.length === 0 ? (
-            <div className="nodata">
-              <h1>{noData}</h1>
-            </div>
-          ) : (
+          {weatherData.length === 0 ? <Nodata noData={noData} />: (
             <>
               <h1>Today</h1>
               <DetailsCard weather_icon={weatherIcon} data={weatherData} />

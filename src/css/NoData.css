@@ -1,0 +1,7 @@
+.nodata{
+  margin-top: 20px;
+  color: darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
