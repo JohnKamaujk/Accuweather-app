@@ -1,25 +1,25 @@
 # ACCUWEATHER APPLICATION
-#### This is a web application that can used to search for a place's weather forecast.It also displays brief information about weather conditions during different times of the day.Current version is 1.1.0 released on 28th July 2022.
+#### This is a web application that can used to search for a place's weather forecast.It also displays a brief information about weather conditions during different times of the day.Current version is 1.1.0 released on 28th July 2022.
 #### By **John Kamau(Software Developer)**
 ## Description
-Recipe Generating App is a web application which is designed to showcase a meal's information including its recipe after a user has made a query.It uses an online API to fetch data and display it
-on the web page.It provides detailed information about a meal including the calories it contain per kcal and also its Cuisine type & Country of origin.It also has an url link for directing
-the user to a page where he/she will find a detailed recipe on how to prepare the dish.
+Accuweather App is a web application which is designed to showcase weather information of a particular place/city after a user has made a search query.It uses an online openweather API to fetch data and display it
+on the UI page.It also provides detailed information about the areas humidity,cloud cover,windspeed & Realfell conditions.
 ## Setup/Installation Requirements
-* Clone the repo {git clone https://github.com/JohnKamaujk/phase1-project
+* Clone the repo {git clone https://github.com/JohnKamaujk/Accuweather-app
 * Type git clone on your terminal and paste the repo link
 * After cloning use VS Code to open the folder.
-* Run the apllication in the code editor using any browser
+* Run the application in the code editor using any browser
 ## Live link
 https://johnkamaujk.github.io/phase1-project/
 ## Known Bugs
-After launching a search query ,it can take a few seconds depending on the speed of your internet to display the items data on the DOM.This is because I am using an online API.
+After launching a search query ,it can take a few seconds depending on the speed of your internet to display the information.This is because I am using an inline API.
 ## Technologies Used
 * HTML5
 * CSS
-* VANILLA JavaScript
+* React.js
+* Visual Studio Code
 ## Support and contact details
-If you ave any issue with the code or you feel you can add additional features to improve the app kindly contact me :
+If you encounter any issue with the code or you feel you can sugggest additional features to improve the app kindly contact me :
 * Phone Number +2547 45419 231
 * Email Address johnjkkamau@gmail.com
 ### License
