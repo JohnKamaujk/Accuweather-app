@@ -10,7 +10,7 @@ on the UI page.It also provides detailed information about the areas humidity,cl
 * After cloning use VS Code to open the folder.
 * Run the application in the code editor using any browser
 ## Live link
-https://johnkamaujk.github.io/phase1-project/
+https://johnkamaujk.github.io/Accuweather-app/
 ## Known Bugs
 After launching a search query ,it can take a few seconds depending on the speed of your internet to display the information.This is because I am using an inline API.
 ## Technologies Used
