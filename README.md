@@ -1,70 +1,27 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# ACCUWEATHER APPLICATION
+#### This is a web application that can used to search for a place's weather forecast.It also displays brief information about weather conditions during different times of the day.Current version is 1.1.0 released on 28th July 2022.
+#### By **John Kamau(Software Developer)**
+## Description
+Recipe Generating App is a web application which is designed to showcase a meal's information including its recipe after a user has made a query.It uses an online API to fetch data and display it
+on the web page.It provides detailed information about a meal including the calories it contain per kcal and also its Cuisine type & Country of origin.It also has an url link for directing
+the user to a page where he/she will find a detailed recipe on how to prepare the dish.
+## Setup/Installation Requirements
+* Clone the repo {git clone https://github.com/JohnKamaujk/phase1-project
+* Type git clone on your terminal and paste the repo link
+* After cloning use VS Code to open the folder.
+* Run the apllication in the code editor using any browser
+## Live link
+https://johnkamaujk.github.io/phase1-project/
+## Known Bugs
+After launching a search query ,it can take a few seconds depending on the speed of your internet to display the items data on the DOM.This is because I am using an online API.
+## Technologies Used
+* HTML5
+* CSS
+* VANILLA JavaScript
+## Support and contact details
+If you ave any issue with the code or you feel you can add additional features to improve the app kindly contact me :
+* Phone Number +2547 45419 231
+* Email Address johnjkkamau@gmail.com
+### License
+This is under the [MIT](LICENSE) license
+Copyright (c) 2022 **Made by John Kamau**
