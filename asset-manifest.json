@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Accuweather-app/static/css/main.d9075677.css",
+    "main.js": "/Accuweather-app/static/js/main.947ddaa7.js",
+    "static/js/787.d17369eb.chunk.js": "/Accuweather-app/static/js/787.d17369eb.chunk.js",
+    "static/media/beach.jpeg": "/Accuweather-app/static/media/beach.b75c9327e2d1c84b85f0.jpeg",
+    "index.html": "/Accuweather-app/index.html",
+    "main.d9075677.css.map": "/Accuweather-app/static/css/main.d9075677.css.map",
+    "main.947ddaa7.js.map": "/Accuweather-app/static/js/main.947ddaa7.js.map",
+    "787.d17369eb.chunk.js.map": "/Accuweather-app/static/js/787.d17369eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9075677.css",
+    "static/js/main.947ddaa7.js"
+  ]
+}
